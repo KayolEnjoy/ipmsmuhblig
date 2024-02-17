@@ -332,3 +332,75 @@ footer .line {
     color: white;
 }
 
+/* Membuat scrollbar tipis dengan desain keren */
+
+/* Untuk Webkit (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--c-brand);
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #fff;
+  }
+  
+  /* Untuk Firefox */
+  /* Perhatikan: scrollbar-color saat ini hanya didukung di Firefox Nightly dan versi baru dari Firefox */
+  /* Jika digunakan di browser lain, scrollbars akan mengambil warna default */
+  /* Mungkin butuh prefix -moz- tergantung pada versi browser */
+  * {
+    scrollbar-color: var(--c-brand) #fff;
+  }
+  
+  /* Untuk IE/Edge */
+  /* Scrollbar pada IE/Edge umumnya menggunakan warna dari tema sistem */
+  
+  /* Untuk mendukung mobile, Anda juga dapat menggunakan media query seperti berikut */
+  @media screen and (min-width: 1280px) {
+  
+  }
+  
+  @media screen and (max-width: 992px) {
+    .mobile-hidden {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Gaya scrollbar khusus untuk layar lebar */
+    /* Atau, Anda dapat menyembunyikan scrollbar di perangkat mobile jika diinginkan */
+    ::-webkit-scrollbar {
+        display: none;
+    }
+  
+    * {
+        scrollbar-color: initial; /* Reset scrollbar untuk browser yang tidak mendukung scrollbar-color */
+    }
+  
+    .mobile-hidden {
+      display: none;
+    }
+  }
+   
+  /* Membuat scrollbar tipis dengan desain keren */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--c-brand);
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #fff;
+  }
+  
+  * {
+    scrollbar-color: var(--c-brand) #fff;
+  }
+  
