@@ -6,7 +6,7 @@
     --c-dark: #212529;
     --c-brand: #3db870;
     --c-brand-light: #7cd4a1;
-    --c-brand-joy: rgb(57, 160, 100);
+    --c-brand-joy: rgba(49, 141, 49, 0.5);
     --c-brand-rgb: 57, 160, 100;
     --c-body: #727272;
     --font-base: "ClashDisplay", sans-serif;
@@ -50,7 +50,14 @@ img {
 .theme-shadow {
     box-shadow: var(--box-shadow);
 }
-
+::-moz-selection {		/* Firefox */
+	background: var(--c-brand-joy);
+	color: #fff;
+}
+::selection {			/* Chrome, Safari, IE9, Opera */
+	background: var(--c-brand-joy);
+	color: #fff;
+}
 /* IMAGE ZOOM */
 .image-zoom {
     position: relative;
