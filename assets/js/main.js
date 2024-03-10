@@ -1,3 +1,9 @@
+	// Page loading animation
+  $(window).on('load', function() {
+
+    $('#js-preloader').addClass('loaded');
+
+});
 function sendEmail() {
   Swal.fire({
       icon: 'info',
@@ -77,10 +83,6 @@ const quotes = [
   {
       quote: "Jangan menunda-nunda amal kebaikan. Melakukan sedikit kebaikan hari ini lebih baik daripada bermimpi tentang melakukan banyak kebaikan besok.",
       tokoh: "Umar bin Khattab"
-  },
-  {
-      quote: "Janganlah engkau melihat hina akan suatu perkara yang kecil, jika dia menyebabkan kebaikan.",
-      tokoh: "KH. Hasyim Asy'ari"
   },
   {
       quote: "Mencari ilmu itu wajib bagi setiap muslim laki-laki maupun perempuan.",
@@ -487,7 +489,7 @@ function changeQuote() {
   const tokoh = quotes[randomNumber].tokoh;
 
   document.getElementById("quote-text").innerText = `"${quote}"`; // Menampilkan kutipan yang dipilih secara acak
-  document.getElementById("tokoh").innerText = `- ${tokoh}`; // Menampilkan nama tokoh
+  document.getElementById("tokoh").innerText = `~ ${tokoh} ~`; // Menampilkan nama tokoh
 }
 
 // Panggil fungsi pertama kali untuk menampilkan kutipan awal
