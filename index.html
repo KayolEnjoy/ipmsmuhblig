@@ -10,8 +10,11 @@
     <meta name="title" content="Pimpinan Ranting IPM SMK Muhammadiyah Bligo">
     <meta name="description" content="Mengikuti inovasi terkini atau trend merupakan suatu pemikiran dan keinginan generasi gen-z">
     <meta name="og:title" content="Pimpinan Ranting IPM SMK Muhammadiyah Bligo">
+    <meta property="og:title" content="Pimpinan Ranting IPM SMK Muhammadiyah Bligo">
     <meta name="og:description" content="Pimpinan Ranting Ikatan Pelajar Muhammadiyah SMK Muhammadiyah Bligo | Artikel pelajar">
+    <meta property="og:description" content="Pimpinan Ranting Ikatan Pelajar Muhammadiyah SMK Muhammadiyah Bligo | Artikel pelajar">
     <meta property="og:type" content="article"/>
+    <meta property="og:url" content="https://ipmsmuhblig.org">
     <meta name="dcterms.type" content="Organization">
     <meta name="copyright" content="SMK Muhammadiyah Bligo">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -39,6 +42,8 @@
     <link rel="shortcut icon" href="logo-pusat-50x50.png" type="image/x-icon">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10">
+    <!-- <link rel="stylesheet" href="assets/css/treeData.min.css" /> 
+    <script src="assets/js/treeData.js"></script> -->
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script>
         emailjs.init("coYun9myjfXn2EY1H"); 
@@ -49,11 +54,23 @@
 
 <body data-bs-spy="scroll" data-bs-target=".navbar">
 
+
+    <div id="js-preloader" class="js-preloader">
+      <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg bg-white sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <img loading="lazy" src="./assets/images/logo-dark.png" alt="">
+            <a class="navbar-brand" href="https://ipmsmuhblig.org">
+                <img loading="lazy" src="./assets/images/logo-dark.png" alt="logo ipm smuhblig">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -120,7 +137,7 @@
             </div>
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-6" data-aos="fade-down" data-aos-delay="50">
-                    <img loading="lazy" src="./assets/images/about.jpg" alt="">
+                    <img loading="lazy" src="./assets/images/about.jpg" alt="tentang ipm">
                 </div>
                 <div data-aos="fade-down" data-aos-delay="150" class="col-lg-5">
                     <h1 class="mt-4">Tentang Kami</h1>
@@ -156,93 +173,7 @@
             </div>
         </div>
     </section>
-
-    <!-- STRUCTURE
-    <section id="struktur" class="section-padding border-top">
-        <div class="container">
-			<div class="row">
-                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
-                    <div class="section-title">
-                        <h1 class="display-4 fw-semibold">Struktur organisasi</h1>
-                        <div class="line"></div>
-                        <p>Sebuah organisasi pasti mempunyai sebuah proker(program kerja)</p>
-                    </div>
-                </div>
-				<div class="tree">
-					<ul>
-						<li>
-							<a href="#">
-								<img src="./assets/images/avatar-6.jpg" />
-								<span>Ketua Umum</span>
-							</a>
-							<a href="#">
-								<img src="./assets/images/avatar-6.jpg" />
-								<span>Sekretaris Umum</span>
-							</a>
-							<a href="#">
-								<img src="./assets/images/avatar-6.jpg" />
-								<span>Bendahara Umum</span>
-							</a>
-							<ul>
-								<li>
-									<a href="#">
-										<img src="./assets/images/avatar-6.jpg" />
-										<span>Grand Child</span>
-									</a>
-									<ul>
-										<li>
-											<a href="#">
-												<img src="./assets/images/avatar-6.jpg" />
-												<span>Great Grand Child</span>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<img src="./assets/images/avatar-6.jpg" />
-												<span>Great Grand Child</span>
-											</a>
-										</li>
-									</ul>
-								</li>
-								<li>
-									<a href="#">
-										<img src="./assets/images/avatar-6.jpg" />
-										<span>Grand Child</span>
-									</a>
-									<ul>
-										<li>
-											<a href="#">
-												<img src="./assets/images/avatar-6.jpg" />
-												<span>Great Grand Child</span>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<img src="./assets/images/avatar-6.jpg" />
-												<span>Great Grand Child</span>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<img src="./assets/images/avatar-6.jpg" />
-												<span>Great Grand Child</span>
-											</a>
-										</li>
-									</ul>
-								</li>
-								<li>
-									<a href="#">
-										<img src="./assets/images/avatar-6.jpg" />
-										<span>Grand Child</span>
-									</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-    </section> -->
+    
 
     <!-- SERVICES -->
     <section id="services" class="section-padding border-top">
@@ -348,62 +279,62 @@
                 <div class="col-md-4" data-aos="fade-down" data-aos-delay="150">
                     <div class="portfolio-item image-zoom mt-4">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/kegiatan-1.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/kegiatan-1.jpg" alt="kegiatan ipm">
                         </div>
                         <a href="./assets/images/kegiatan-1.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
                     </div>
                     <div class="portfolio-item image-zoom mt-4">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/kegiatan-2.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/kegiatan-2.jpg" alt="kegiatan ipm">
                         </div>
                         <a href="./assets/images/kegiatan-2.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
                     </div>
                 
                     <div class="portfolio-item image-zoom mt-4">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/kegiatan-14.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/kegiatan-14.jpg" alt="kegiatan ipm">
                         </div>
                         <a href="./assets/images/kegiatan-14.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
                     </div>
                     <div class="portfolio-item image-zoom mt-4">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/kegiatan-9.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/kegiatan-9.jpg" alt="kegiatan ipm">
                         </div>
                         <a href="./assets/images/kegiatan-9.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
                     </div>
                     <div class="portfolio-item image-zoom mt-4">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/kegiatan-13.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/kegiatan-13.jpg" alt="kegiatan ipm">
                         </div>
                         <a href="./assets/images/kegiatan-13.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
                     </div>
                     <div class="portfolio-item image-zoom mt-4">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/kegiatan-15.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/kegiatan-15.jpg" alt="kegiatan ipm">
                         </div>
                         <a href="./assets/images/kegiatan-15.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
                     </div>
                     <div class="portfolio-item image-zoom mt-4">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/kegiatan-17.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/kegiatan-17.jpg" alt="kegiatan ipm">
                         </div>
                         <a href="./assets/images/kegiatan-17.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
                     </div>
                     <div class="portfolio-item image-zoom mt-4">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/kegiatan-19.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/kegiatan-19.jpg" alt="kegiatan ipm">
                         </div>
                         <a href="./assets/images/kegiatan-19.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
                     </div>
                     <div class="portfolio-item image-zoom mt-4">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/kegiatan-22.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/kegiatan-22.jpg" alt="kegiatan ipm">
                         </div>
                         <a href="./assets/images/kegiatan-22.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
                     </div>
                     <div class="portfolio-item image-zoom mt-4">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/kegiatan-27.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/kegiatan-27.jpg" alt="kegiatan ipm">
                         </div>
                         <a href="./assets/images/kegiatan-27.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
                     </div>
@@ -412,55 +343,55 @@
                 <div class="col-md-4" data-aos="fade-down" data-aos-delay="250">
                     <div class="portfolio-item image-zoom mt-4">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/kegiatan-3.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/kegiatan-3.jpg" alt="kegiatan ipm">
                         </div>
                         <a href="./assets/images/kegiatan-3.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
                     </div>
                     <div class="portfolio-item image-zoom mt-4">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/kegiatan-8.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/kegiatan-8.jpg" alt="kegiatan ipm">
                         </div>
                         <a href="./assets/images/kegiatan-8.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
                     </div>
                     <div class="portfolio-item image-zoom mt-4">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/kegiatan-6.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/kegiatan-6.jpg" alt="kegiatan ipm">
                         </div>
                         <a href="./assets/images/kegiatan-6.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
                     </div>
                     <div class="portfolio-item image-zoom mt-4">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/kegiatan-11.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/kegiatan-11.jpg" alt="kegiatan ipm">
                         </div>
                         <a href="./assets/images/kegiatan-11.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
                     </div>
                     <div class="portfolio-item image-zoom mt-4">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/kegiatan-16.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/kegiatan-16.jpg" alt="kegiatan ipm">
                         </div>
                         <a href="./assets/images/kegiatan-16.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
                     </div>
                     <div class="portfolio-item image-zoom mt-4">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/kegiatan-18.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/kegiatan-18.jpg" alt="kegiatan ipm">
                         </div>
                         <a href="./assets/images/kegiatan-18.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
                     </div>
                     <div class="portfolio-item image-zoom mt-4">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/kegiatan-20.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/kegiatan-20.jpg" alt="kegiatan ipm">
                         </div>
                         <a href="./assets/images/kegiatan-20.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
                     </div>
                     <div class="portfolio-item image-zoom mt-4">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/kegiatan-23.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/kegiatan-23.jpg" alt="kegiatan ipm">
                         </div>
                         <a href="./assets/images/kegiatan-23.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
                     </div>
                     <div class="portfolio-item image-zoom mt-4">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/kegiatan-25.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/kegiatan-25.jpg" alt="kegiatan ipm">
                         </div>
                         <a href="./assets/images/kegiatan-25.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
                     </div>
@@ -469,49 +400,49 @@
                 <div class="col-md-4" data-aos="fade-down" data-aos-delay="350">
                     <div class="portfolio-item image-zoom mt-4">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/kegiatan-4.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/kegiatan-4.jpg" alt="kegiatan ipm">
                         </div>
                         <a href="./assets/images/kegiatan-4.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
                     </div>
                     <div class="portfolio-item image-zoom mt-4">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/kegiatan-7.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/kegiatan-7.jpg" alt="kegiatan ipm">
                         </div>
                         <a href="./assets/images/kegiatan-7.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
                     </div>
                     <div class="portfolio-item image-zoom mt-4">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/kegiatan-5.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/kegiatan-5.jpg" alt="kegiatan ipm">
                         </div>
                         <a href="./assets/images/kegiatan-5.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
                     </div>
                     <div class="portfolio-item image-zoom mt-4">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/kegiatan-10.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/kegiatan-10.jpg" alt="kegiatan ipm">
                         </div>
                         <a href="./assets/images/kegiatan-10.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
                     </div>
                     <div class="portfolio-item image-zoom mt-4">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/kegiatan-21.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/kegiatan-21.jpg" alt="kegiatan ipm">
                         </div>
                         <a href="./assets/images/kegiatan-21.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
                     </div>
                     <div class="portfolio-item image-zoom mt-4">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/kegiatan-12.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/kegiatan-12.jpg" alt="kegiatan ipm">
                         </div>
                         <a href="./assets/images/kegiatan-12.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
                     </div>
                     <div class="portfolio-item image-zoom mt-4">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/kegiatan-24.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/kegiatan-24.jpg" alt="kegiatan ipm">
                         </div>
                         <a href="./assets/images/kegiatan-24.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
                     </div>
                     <div class="portfolio-item image-zoom mt-4">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/kegiatan-26.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/kegiatan-26.jpg" alt="kegiatan ipm">
                         </div>
                         <a href="./assets/images/kegiatan-26.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
                     </div>
@@ -546,7 +477,7 @@
                             <p>Amazing theme ipsum dolor sit amet consectetur adipisicing elit. Assumenda eum animi rerum ipsam impedit dicta voluptatem.</p>
                         </div>
                         <div class="review-person mt-4 d-flex align-items-center">
-                            <img loading="lazy" class="rounded-circle" src="./assets/images/avatar-1.jpg" alt="">
+                            <img loading="lazy" class="rounded-circle" src="./assets/images/avatar-1.jpg" alt="profile siswa">
                             <div class="ms-3">
                                 <h5>Mariyadi</h5>
                                 <small>XI TKJ 8</small>
@@ -567,7 +498,7 @@
                             <p>Amazing theme ipsum dolor sit amet consectetur adipisicing elit. Assumenda eum animi rerum ipsam impedit dicta voluptatem.</p>
                         </div>
                         <div class="review-person mt-4 d-flex align-items-center">
-                            <img loading="lazy" class="rounded-circle" src="./assets/images/avatar-2.jpg" alt="">
+                            <img loading="lazy" class="rounded-circle" src="./assets/images/avatar-2.jpg" alt="profile siswa">
                             <div class="ms-3">
                                 <h5>Mariyadi</h5>
                                 <small>X TKJ 9</small>
@@ -588,7 +519,7 @@
                             <p>Amazing theme ipsum dolor sit amet consectetur adipisicing elit. Assumenda eum animi rerum ipsam impedit dicta voluptatem.</p>
                         </div>
                         <div class="review-person mt-4 d-flex align-items-center">
-                            <img loading="lazy" class="rounded-circle" src="./assets/images/avatar-3.jpg" alt="">
+                            <img loading="lazy" class="rounded-circle" src="./assets/images/avatar-3.jpg" alt="profile siswa">
                             <div class="ms-3">
                                 <h5>Mariyadi</h5>
                                 <small>XI FKK 8</small>
@@ -609,7 +540,7 @@
                             <p>Amazing theme ipsum dolor sit amet consectetur adipisicing elit. Assumenda eum animi rerum ipsam impedit dicta voluptatem.</p>
                         </div>
                         <div class="review-person mt-4 d-flex align-items-center">
-                            <img loading="lazy" class="rounded-circle" src="./assets/images/avatar-4.jpg" alt="">
+                            <img loading="lazy" class="rounded-circle" src="./assets/images/avatar-4.jpg" alt="profile siswa">
                             <div class="ms-3">
                                 <h5>Mariyadi</h5>
                                 <small>XII AKL 6</small>
@@ -630,7 +561,7 @@
                             <p>Amazing theme ipsum dolor sit amet consectetur adipisicing elit. Assumenda eum animi rerum ipsam impedit dicta voluptatem.</p>
                         </div>
                         <div class="review-person mt-4 d-flex align-items-center">
-                            <img loading="lazy" class="rounded-circle" src="./assets/images/avatar-5.jpg" alt="">
+                            <img loading="lazy" class="rounded-circle" src="./assets/images/avatar-5.jpg" alt="profile siswa">
                             <div class="ms-3">
                                 <h5>Mariyadi</h5>
                                 <small>XII AKL 6</small>
@@ -651,7 +582,7 @@
                             <p>Amazing theme ipsum dolor sit amet consectetur adipisicing elit. Assumenda eum animi rerum ipsam impedit dicta voluptatem.</p>
                         </div>
                         <div class="review-person mt-4 d-flex align-items-center">
-                            <img loading="lazy" class="rounded-circle" src="./assets/images/avatar-6.jpg" alt="">
+                            <img loading="lazy" class="rounded-circle" src="./assets/images/avatar-6.jpg" alt="profile siswa">
                             <div class="ms-3">
                                 <h5>Mariyadi</h5>
                                 <small>XI FKK 8</small>
@@ -679,7 +610,7 @@
                 <div class="col-md-4" data-aos="fade-down" data-aos-delay="150">
                     <div class="team-member image-zoom">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/rafi.jpeg" alt="">
+                            <img loading="lazy" src="./assets/images/rafi.jpeg" alt="Rafie Ul Haq">
                         </div>
                         <div class="team-member-content">
                             <h4 class="text-white">Ipmawan M.Rafie Ul Haq</h4>
@@ -690,7 +621,7 @@
                 <div class="col-md-4" data-aos="fade-down" data-aos-delay="250">
                     <div class="team-member image-zoom">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/jazim.jpeg" alt="">
+                            <img loading="lazy" src="./assets/images/jazim.jpeg" alt="M.Jazim Nur">
                         </div>
                         <div class="team-member-content">
                             <h4 class="text-white">Ipmawan M.Jazim Nur</h4>
@@ -701,7 +632,7 @@
                 <div class="col-md-4" data-aos="fade-down" data-aos-delay="350">
                     <div class="team-member image-zoom">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/aina.jpeg" alt="">
+                            <img loading="lazy" src="./assets/images/aina.jpeg" alt="Aina Salsabila">
                         </div>
                         <div class="team-member-content">
                             <h4 class="text-white">Ipmawati Aina Salsabila</h4>
@@ -766,7 +697,7 @@
                 <div class="col-md-4" data-aos="fade-down" data-aos-delay="150">
                     <div class="team-member image-zoom">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/blog-post-1.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/blog-post-1.jpg" alt="artikel">
                         </div>
                         <h5 class="mt-4">Sholat dhuha berjamaah</h5>
                         <p>Siswa dan siswi smk muhammadiyah bligo rutin hari jum'at...</p>
@@ -776,21 +707,21 @@
                 <div class="col-md-4" data-aos="fade-down" data-aos-delay="250">
                     <div class="team-member image-zoom">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/blog-post-2.jpeg" alt="">
+                            <img loading="lazy" src="./assets/images/blog-post-2.jpeg" alt="artikel">
                         </div>
                         <h5 class="mt-4">LDPR 2024</h5>
                         <p>"IPM kok gak ikut ldpr,ruugi dong!!" panitia ldpr membuat...</p>
-                        <a href="#">Baca Selengkapnya</a>
+                        <a href="https://ipmsmuhblig.org">Baca Selengkapnya</a>
                     </div>
                 </div>
                 <div class="col-md-4" data-aos="fade-down" data-aos-delay="350">
                     <div class="team-member image-zoom">
                         <div class="image-zoom-wrapper">
-                            <img loading="lazy" src="./assets/images/blog-post-3.jpg" alt="">
+                            <img loading="lazy" src="./assets/images/blog-post-3.jpg" alt="artikel">
                         </div>
                         <h5 class="mt-4">Cegah Nyampah</h5>
                         <p>PR IPM Smuhblig membuat inovasi bernama "gaharu" hasilnya ...</p>
-                        <a href="#">Baca Selengkapnya</a>
+                        <a href="https://ipmsmuhblig.org">Baca Selengkapnya</a>
                     </div>
                 </div>
             </div>
@@ -803,24 +734,23 @@
             <div class="container">
                 <div class="row gy-5">
                     <div class="col-lg-3 col-sm-6">
-                        <a href="#"><img loading="lazy" src="./assets/images/logo-white.png" alt=""></a>
+                        <a href="https://ipmsmuhblig.org"><img loading="lazy" src="./assets/images/logo-white.png" alt="logo ipmsmuhblig"></a>
                         <div class="line"></div>
                         <p>Pimpinan Ranting SMK Muhammadiyah Bligo</p>
                         <div class="social-icons">
-                            <a href="#"><i class="ri-twitter-fill"></i></a>
-                            <a href="#"><i class="ri-instagram-fill"></i></a>
-                            <a href="#"><i class="ri-github-fill"></i></a>
-                            <a href="#"><i class="ri-dribbble-fill"></i></a>
+                            <a href="https://www.facebook.com/ipm.bligo"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://instagram.com/ipmsmuhblig?utm_medium=copy_link"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://youtube.com/channel/UC_Jt3Ofapsskyhnuf8Kd08Q"><i class="fa-brands fa-youtube"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6">
                         <h5 class="mb-0 text-white">Program Kerja</h5>
                         <div class="line"></div>
                         <ul>
-                            <li><a href="#">Buletin</a></li>
-                            <li><a href="#">Warung IPM</a></li>
-                            <li><a href="#">Dakwah Media</a></li>
-                            <li><a href="#">Sekolah Desain</a></li>
+                            <li><a href="https://ipmsmuhblig.org">Buletin</a></li>
+                            <li><a href="https://ipmsmuhblig.org">Warung IPM</a></li>
+                            <li><a href="https://ipmsmuhblig.org">Dakwah Media</a></li>
+                            <li><a href="https://ipmsmuhblig.org">Sekolah Desain</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-sm-6">
@@ -869,7 +799,7 @@
             "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "Sapugarut gg 7 kecamatan buaran",
-                "addressLocality": "Kabupaten pekalongan",
+                "addressLocality": "Kabupaten Pekalongan",
                 "addressRegion": "Jawa Tengah",
                 "postalCode": "51171",
                 "addressCountry": "Indonesia"
